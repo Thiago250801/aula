@@ -29,4 +29,14 @@
 
     $frutas[] = "Uva"; // Adicionando uma nova fruta ao array
     echo "Quarta fruta: " . $frutas[3] . "<br>";
+
+    // operadores 
+
+    $a = 10;
+    $b = 5;
+
+    echo "Soma: " . ($a + $b) . "<br>";
+    echo "Subtração: " . ($a - $b) . "<br>";
+    echo "Multiplicação: " . ($a * $b) . "<br>";
+    echo "Divisão: " . ($a / $b) . "<br>";
 ?>
