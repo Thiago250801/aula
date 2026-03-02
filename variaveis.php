@@ -18,4 +18,15 @@
     echo "<p>Altura: $altura</p>";
     echo "<p>É estudante: " . ($isStudent ? "Sim" : "Não") . "</p>";
 
+    $somaIdade = $idade + 10;
+
+    // arrays 
+    $frutas = ["Maçã", "Banana", "Laranja"];
+    
+    echo "Primeira fruta: " . $frutas[0] . "<br>";
+    echo "Segunda fruta: " . $frutas[1] . "<br>";
+    echo "Terceira fruta: " . $frutas[2] . "<br>";
+
+    $frutas[] = "Uva"; // Adicionando uma nova fruta ao array
+    echo "Quarta fruta: " . $frutas[3] . "<br>";
 ?>
